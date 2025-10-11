@@ -1,9 +1,9 @@
 import java.util.concurrent.*;
 
 public public class ElevatorManager {
-    class abtrac Elevador{
+    class abtrac Elevador {
         protected boolean pocicionActual;
-        proctected int direccionActual;
+        protected int direccionActual;
         list <Integre>;
     }
 
@@ -16,7 +16,7 @@ public public class ElevatorManager {
             elevador muy lejos (solo si la opcion 1 y 2 estan ocupadas)
                 - destino actual -(piso final+piso origen)
          */
-    }
+    } 
 
 
     public boolean EstadoElevador (){
@@ -26,7 +26,11 @@ public public class ElevatorManager {
 
     public boolean direccionElevador (EstadoElevador){
         if(EstadoElevador()==true){
-            return "Se mueve";
+            if (movimiento == 1){
+                return "se mueve para arriba";
+            }else if (movimiento == 2){
+                return "se mueve para abajo";
+            }
         }return "parado";
     }
 }
