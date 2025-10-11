@@ -1,1 +1,23 @@
 
+import java.util.Scanner;
+import java.util.*;
+
+public class consola {
+    public static void main(String args[]){
+        System.out.println("Elevadores disponibles.");
+        Scanner scan= new Scanner(Scanner.in);
+        
+        System.out.println("Escoja un Elevador:");
+        System.out.println("1. Elevador 1");
+        System.out.println("2. Elevador 2");    
+        int Elevador = scan.nextInt();
+
+        System.out.println("A que piso?");
+        System.out.println("");
+
+        
+
+        scan.close();
+    }
+
+}
