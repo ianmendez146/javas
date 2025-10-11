@@ -1,0 +1,32 @@
+import java.util.concurrent.*;
+
+public public class ElevatorManager {
+    class abtrac Elevador{
+        prodecd boolean pocicionActual;
+        proctecd direccionActual;
+        list <Integre>;
+    }
+
+    int eficiencia {
+        /*
+            elevador parado
+                - piso de origen - piso del elevado
+            elevador en movimiento
+                - distancia a destino actual+distancia de Destino a Origen de Peticion
+            elevador muy lejos (solo si la opcion 1 y 2 estan ocupadas)
+                - destino actual -(piso final+piso origen)
+         */
+    }
+
+
+    public boolean EstadoElevador (){
+       // true --> se esta moviendo
+       // false --> esta detenido
+    }
+
+    public boolean direccionElevador (EstadoElevador){
+        if(EstadoElevador()==true){
+            return "Se mueve";
+        }return "parado";
+    }
+}
