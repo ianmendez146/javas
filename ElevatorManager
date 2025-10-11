@@ -2,8 +2,8 @@ import java.util.concurrent.*;
 
 public public class ElevatorManager {
     class abtrac Elevador{
-        prodecd boolean pocicionActual;
-        proctecd direccionActual;
+        protected boolean pocicionActual;
+        proctected int direccionActual;
         list <Integre>;
     }
 
